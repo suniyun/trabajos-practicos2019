@@ -64,18 +64,3 @@ float factorear1 (float primerNumero)
     return resultado1;
 }
 
-float factorear2 (float segundoNumero)
-{
-    int resultado2;
-    
-    do{
-        segundoNumero = (int) segundoNumero;
-        resultado2 = segundoNumero * factorear2(segundoNumero - 1);
-        
-    }while (segundoNumero > 0);    
-    
-    return resultado2;
-    
-}
-
-
