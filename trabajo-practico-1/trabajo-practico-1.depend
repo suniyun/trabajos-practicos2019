@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1535942605 source:c:\users\lucia\downloads\programacion\programacion 1\trabajo-practico-1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1536069747 source:c:\users\alumno\desktop\desktop\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	"Biblioteca.c"
+
+1536074029 c:\users\alumno\desktop\desktop\biblioteca.h
+
+1536070087 source:c:\users\alumno\desktop\desktop\biblioteca.c
+	"Biblioteca.h"
+	<stdio.h>
+	<stdlib.h>
+
+1536070087 c:\users\alumno\desktop\desktop\biblioteca.c
+	"Biblioteca.h"
+	<stdio.h>
+	<stdlib.h>
+
+1536111157 source:c:\users\lucia\desktop\aaaaaaaaa\biblioteca.c
+	"Biblioteca.h"
+	<stdio.h>
+	<stdlib.h>
+
+1536168017 c:\users\lucia\desktop\aaaaaaaaa\biblioteca.h
+
+1536110992 source:c:\users\lucia\desktop\aaaaaaaaa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+
+1536078888 c:\users\lucia\desktop\aaaaaaaaa\biblioteca.c
+	"Biblioteca.h"
+	<stdio.h>
+	<stdlib.h>
+
