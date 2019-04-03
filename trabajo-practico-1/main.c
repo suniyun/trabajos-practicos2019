@@ -63,7 +63,7 @@ int main()
               valorMultiplicacion = multiplicar (primerNumero, segundoNumero);
               valorDivision = dividir (primerNumero, segundoNumero);
               valorFactoreo1 = factorear1 (primerNumero);
-              valorFactoreo2 = factorear2 (segundoNumero);
+              valorFactoreo2 = factorear1 (segundoNumero);
 
             break;
           case 4:
