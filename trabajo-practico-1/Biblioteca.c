@@ -54,39 +54,28 @@ float dividir (float primerNumero, float segundoNumero)
 
 float factorear1 (float primerNumero)
 {
-    float factor1;
-    float factorial1;
-    factor1 = 1;
-
-     if(primerNumero < 0)
-    {
-        printf("No se puede factorear el primer numero porque es un numero negativo. Ingrese un numero valido. \n");
-    }
-
-        for(factorial1 = primerNumero; factorial1 > 0; factorial1--)
-            {
-                factor1 = factor1 * factorial1;
-            }
-
-        return factor1;
+    int resultado1;
+    
+    do{
+        primerNumero = (int) primerNumero;
+        resultado = primerNumero * factorear1(primerNumero - 1);
+    }while (primerNumero > 0);
+    
+    return resultado1;
 }
 
 float factorear2 (float segundoNumero)
 {
-    float factor2;
-    float factorial2;
-    factor2 = 1;
-
-     if(segundoNumero < 0)
-    {
-        printf("No se puede factorear el segundo numero porque es un numero negativo. Ingrese un numero valido. \n");
-    }
-        for(factorial2 = segundoNumero; factorial2 > 0; factorial2--)
-            {
-                factor2 = factor2 * factorial2;
-            }
-
-        return factor2;
+    int resultado2;
+    
+    do{
+        segundoNumero = (int) segundoNumero;
+        resultado2 = segundoNumero * factorear2(segundoNumero - 1);
+        
+    }while (segundoNumero > 0);    
+    
+    return resultado2;
+    
 }
 
 
