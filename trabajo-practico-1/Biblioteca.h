@@ -56,14 +56,6 @@ float factorear1 (float);
  * \return resultado factorial del numero flotante ingresado
  *
  */
-float factorear2 (float);
-/** \brief multiplica los numeros ingresados anteriores hasta 1
- *
- * \param float numero a factorear
- * \param
- * \return resultado factorial del numero flotante ingresado
- *
- */
 
 #endif // Biblioteca
 
