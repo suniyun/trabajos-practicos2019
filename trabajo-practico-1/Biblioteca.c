@@ -48,9 +48,11 @@ float dividir (float primerNumero, float segundoNumero)
     {
     printf("No se puede dividir por 0. Ingrese un numero valido. \n");
     } 
-    else{
+    else
+    {
     division = primerNumero / segundoNumero;
     }
+    
     return division;
 }
 
@@ -61,6 +63,7 @@ float factorear1 (float primerNumero)
     do{
         primerNumero = (int) primerNumero;
         resultado = primerNumero * factorear1(primerNumero - 1);
+        
     }while (primerNumero > 0);
     
     return resultado1;
