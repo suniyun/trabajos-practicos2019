@@ -62,7 +62,7 @@ float factorear1 (float primerNumero)
     
     do{
         primerNumero = (int) primerNumero;
-        resultado = primerNumero * factorear1(primerNumero - 1);
+        resultado1 = primerNumero * factorear1(primerNumero - 1);
         
     }while (primerNumero > 0);
     
