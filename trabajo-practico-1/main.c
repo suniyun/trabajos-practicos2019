@@ -58,12 +58,12 @@ int main()
 
               printf("------------------------------------------------ \n");
               printf("La calculadora esta trabajando... \n");
-              valorSuma = sumar (primerNumero, segundoNumero);
-              valorResta = restar (primerNumero, segundoNumero);
-              valorMultiplicacion = multiplicar (primerNumero, segundoNumero);
-              valorDivision = dividir (primerNumero, segundoNumero);
-              valorFactoreo1 = factorear1 (primerNumero);
-              valorFactoreo2 = factorear1 (segundoNumero);
+              valorSuma = sumar(primerNumero, segundoNumero);
+              valorResta = restar(primerNumero, segundoNumero);
+              valorMultiplicacion = multiplicar(primerNumero, segundoNumero);
+              valorDivision = dividir(primerNumero, segundoNumero);
+              valorFactoreo1 = factorear1(primerNumero);
+              valorFactoreo2 = factorear1(segundoNumero);
 
             break;
           case 4:
