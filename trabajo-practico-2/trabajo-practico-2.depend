@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1538524170 source:c:\users\lucia\desktop\aaaasdsf\trabajo-practico-2\arrayemployee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployee.h"
+	"library.h"
+
+1538523724 c:\users\lucia\desktop\aaaasdsf\trabajo-practico-2\arrayemployee.h
+
+1538523724 c:\users\lucia\desktop\aaaasdsf\trabajo-practico-2\library.h
+
+1538523775 source:c:\users\lucia\desktop\aaaasdsf\trabajo-practico-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"library.h"
+	"ArrayEmployee.h"
+
+1538523800 source:c:\users\lucia\desktop\aaaasdsf\trabajo-practico-2\library.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"library.h"
+
